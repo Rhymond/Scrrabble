@@ -1,6 +1,22 @@
 # Scrrabble club application
 
-1. Database schema definition (create table statements) for your solution
+## Install
+
+Install dependencies
+
+```bash
+composer install
+```
+
+Copy `.env.example` to `.env` and update environment variables
+
+Run migrations
+
+```bash
+php artisan migrate
+```
+
+**1. Database schema definition (create table statements) for your solution**
 
 #### Players
 
@@ -53,11 +69,30 @@ CREATE TABLE `scores` (
 ) ENGINE=InnoDB 
 ```
 
-2. A member's profile screen showing their
+**2. A member's profile screen showing their**
 
 * number of wins,
 * number of losses,
 * their average score,
 * their highest score, when and where it was scored, and against whom
 
-![1](/resources/1.png?raw=true "Optional Title")
+![2](/resources/2.png?raw=true)
+
+**3. Interfaces (preferably browser based) to create and edit members' details, such as name,
+contact number etc. (not match results (unless you want to!)).
+and perhaps, if time**
+
+![1](/resources/1.png?raw=true)
+![4](/resources/4.png?raw=true)
+
+**4. A leader board screen to list the members with the top 10 average scores, for those members
+who have played at least 10 matches.**
+
+![3](/resources/3.png?raw=true)
+
+## todo
+- [ ] Unit Tests
+- [ ] Acceptance Tests
+- [ ] Clean not used Laravel code
+- [ ] Comments
+- [ ] CSRF integration
