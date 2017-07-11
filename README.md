@@ -22,8 +22,7 @@ php artisan migrate
 docker-compose up
 ```
 
-Application should run on port 80. You can reach application on `http://locahost`
-
+Launch application from a browser `http://localhost`
 
 **1. Database schema definition (create table statements) for your solution**
 
