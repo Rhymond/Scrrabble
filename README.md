@@ -1,20 +1,29 @@
-# Scrrabble club application
+# Scrabble club application
 
-## Install
+## Installation
 
-Install dependencies
+1. Install dependencies
 
 ```bash
 composer install
 ```
 
-Copy `.env.example` to `.env` and update environment variables
+2. Copy `.env.example` to `.env` and update environment variables
 
-Run migrations
+3. Run migrations
 
 ```bash
 php artisan migrate
 ```
+
+4. Run docker environment
+
+```bash
+docker-compose up
+```
+
+Application should run on port 80. You can reach application on `http://locahost`
+
 
 **1. Database schema definition (create table statements) for your solution**
 

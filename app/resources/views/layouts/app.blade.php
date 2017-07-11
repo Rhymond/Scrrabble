@@ -22,7 +22,7 @@
                 aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="#">Scrrabble club</a>
+        <a class="navbar-brand" href="#">Scrabble club</a>
     </div>
 </nav>
 <div class="container mt-3">
